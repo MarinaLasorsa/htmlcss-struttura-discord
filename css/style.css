@@ -33,6 +33,14 @@ img {
     width: 25%;
 }
 
+.col-60 {
+    width: 60%;
+}
+
+.row-header {
+    justify-content: center;
+}
+
 /*DEBUG*/
 
 .debug .container {
@@ -50,6 +58,10 @@ img {
     padding: 10px;
 }
 
+.debug .col-header {
+    min-height: 200px;
+}
+
 /*STYLES*/
 
 .background-blue {
@@ -60,3 +72,10 @@ img {
     background-color: rgb(248, 168, 255);
 }
 
+.background-purple {
+    background-color: rgb(179, 64, 214);
+}
+
+.background-darkblue {
+    background-color: rgb(29, 62, 146);
+}
