@@ -25,17 +25,38 @@ img {
     flex-wrap: wrap;
 }
 
+.col-50 {
+    width: 50%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
 /*DEBUG*/
 
 .debug .container {
-    border: 5px solid black;
-    padding: 20px;
-    background-color: aqua;
+    border: 2px solid rgb(227, 45, 87);
+    padding: 10px;
 }
 
 .debug .row {
-    border: 5px solid black;
-    padding: 20px;
-    background-color: blue;
+    border: 2px solid rgb(147, 147, 147);
+    padding: 10px;
+}
+
+.debug .column {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/*STYLES*/
+
+.background-blue {
+    background-color: rgb(151, 255, 255);
+}
+
+.background-pink {
+    background-color: rgb(248, 168, 255);
 }
 
