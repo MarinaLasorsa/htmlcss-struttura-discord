@@ -24,3 +24,18 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+
+/*DEBUG*/
+
+.debug .container {
+    border: 5px solid black;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.debug .row {
+    border: 5px solid black;
+    padding: 20px;
+    background-color: blue;
+}
+
