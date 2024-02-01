@@ -16,7 +16,7 @@ img {
 /*LAYOUT RULES*/
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -57,6 +57,18 @@ img {
     flex-direction: row-reverse;
 }
 
+.row-footer {
+    justify-content: space-between
+}
+
+.col-footer {
+    width: 18%;
+}
+
+.col-grow {
+    flex-grow: 1;
+}
+
 /*DEBUG*/
 
 .debug .container {
@@ -84,6 +96,10 @@ img {
 
 .debug .col-bottom {
     min-height: 500px;
+}
+
+.debug .col-footer {
+    min-height: 400px;
 }
 
 /*STYLES*/
@@ -122,4 +138,16 @@ img {
 
 .background-green {
     background-color: rgb(139, 232, 96);
+}
+
+.background-black {
+    background-color: rgb(59, 59, 59);
+}
+
+.background-lilac {
+    background-color: rgb(189, 148, 202);
+}
+
+.background-darkgreen {
+    background-color: rgb(61, 137, 88);
 }
